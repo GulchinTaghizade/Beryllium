@@ -15,9 +15,6 @@
 }
 
 nav {
-
-    // .container {
-    //     .row {
     #right-side {
         ul {
             li {
@@ -26,7 +23,7 @@ nav {
                 color: #D4D6D6;
                 letter-spacing: .05em;
                 transition: 0.5s;
-                // display: flex;
+
                 &:hover {
                     color: black;
                 }
@@ -40,8 +37,9 @@ nav {
                     background-color: black;
                     color: white;
                     border-radius: 5px;
-                    display:none;
+                    display: none;
                     padding: 15px;
+
                     li {
                         padding: 5px 0;
                     }
@@ -55,10 +53,6 @@ nav {
         }
     }
 
-    //     }
-    // }
-
-
     ul {
         display: flex;
         list-style-type: none;
@@ -70,4 +64,17 @@ nav {
         font-weight: 700;
         padding: 25px;
     }
+
+    #services,
+    #dropdown {
+        &:hover {
+
+            #services-drp-dwn,
+            #dropdown-drp-dwn {
+                transform: translate(0, 15%);
+                display: block;
+            }
+        }
+    }
+
 }
