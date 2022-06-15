@@ -165,30 +165,33 @@ nav {
 
 }
 
-@media screen and (max-width: 768px) {
-    #sidebar {
-        display: block;
+// @media screen and (max-width: 768px) {
+//     #sidebar {
+//         display: block;
+//     }
+
+// }
+
+#slider {
+    .carousel-indicators {
+        #carouselExampleIndicators {
+            border-radius: 50%;
+        }
     }
 
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: black;
+    }
+    // .carousel-caption{
+    //     display: inline-block !important;
+    //     position: absolute ;
+    //     left: 0;
+    // }
 }
 
-// #slider {
-//     .carousel-inner{
-//         // visibility: hidden;
-//     }
-//     .carousel-indicators {
-//         #carouselExampleIndicators {
-//             border-radius: 50%;
-//         }
-//     }
-
-//     .carousel-control-prev-icon,
-//     .carousel-control-next-icon {
-//         background-color: black;
-//     }
-//     // .carousel-caption{
-//     //     display: inline-block !important;
-//     //     position: absolute ;
-//     //     left: 0;
-//     // }
-// }
+@media screen and (max-width: 768px) {
+        .slider-container {
+            max-width: 100%;
+        }
+}

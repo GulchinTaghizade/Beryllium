@@ -148,9 +148,18 @@ nav #dropdown:hover #dropdown-drp-dwn {
   font-size: 25px;
 }
 
+#slider .carousel-indicators #carouselExampleIndicators {
+  border-radius: 50%;
+}
+
+#slider .carousel-control-prev-icon,
+#slider .carousel-control-next-icon {
+  background-color: black;
+}
+
 @media screen and (max-width: 768px) {
-  #sidebar {
-    display: block;
+  .slider-container {
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
