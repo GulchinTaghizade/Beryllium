@@ -15,6 +15,11 @@
 }
 
 nav {
+    #hamb-icon{
+        font-size: 25px;
+        padding: 20px;
+        display: none;
+    }
     #right-side {
 
         // padding: 30px 0;
@@ -90,7 +95,7 @@ nav {
 
 #slider {
     .carousel-inner{
-        visibility: hidden;
+        // visibility: hidden;
     }
     .carousel-indicators {
         #carouselExampleIndicators {
