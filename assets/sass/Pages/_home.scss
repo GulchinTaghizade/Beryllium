@@ -34,6 +34,8 @@ nav {
                 }
 
                 .drp-dwn-ul {
+                    position: absolute;
+                    z-index: 2;
                     background-color: black;
                     color: white;
                     border-radius: 5px;
@@ -41,9 +43,9 @@ nav {
                     padding: 15px;
                     li {
                         padding: 5px 0;
-                        color: white;
+                        color: #D4D6D6;
                         &:hover{
-                            color: #D4D6D6;
+                            color: white;
                         }
                     }
                 }
@@ -65,7 +67,7 @@ nav {
     #logo {
         font-size: 20px;
         font-weight: 700;
-        padding: 25px;
+        padding: 25px 0;
     }
 
     #services,

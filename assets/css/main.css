@@ -34,6 +34,8 @@ nav #right-side ul li .down-arrow {
 }
 
 nav #right-side ul li .drp-dwn-ul {
+  position: absolute;
+  z-index: 2;
   background-color: black;
   color: white;
   border-radius: 5px;
@@ -43,11 +45,11 @@ nav #right-side ul li .drp-dwn-ul {
 
 nav #right-side ul li .drp-dwn-ul li {
   padding: 5px 0;
-  color: white;
+  color: #D4D6D6;
 }
 
 nav #right-side ul li .drp-dwn-ul li:hover {
-  color: #D4D6D6;
+  color: white;
 }
 
 nav #right-side ul .active {
@@ -65,7 +67,7 @@ nav ul {
 nav #logo {
   font-size: 20px;
   font-weight: 700;
-  padding: 25px;
+  padding: 25px 0;
 }
 
 nav #services:hover #services-drp-dwn,
