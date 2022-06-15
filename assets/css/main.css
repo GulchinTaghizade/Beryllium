@@ -43,6 +43,11 @@ nav #right-side ul li .drp-dwn-ul {
 
 nav #right-side ul li .drp-dwn-ul li {
   padding: 5px 0;
+  color: white;
+}
+
+nav #right-side ul li .drp-dwn-ul li:hover {
+  color: #D4D6D6;
 }
 
 nav #right-side ul .active {

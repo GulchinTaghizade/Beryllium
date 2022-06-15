@@ -39,9 +39,12 @@ nav {
                     border-radius: 5px;
                     display: none;
                     padding: 15px;
-
                     li {
                         padding: 5px 0;
+                        color: white;
+                        &:hover{
+                            color: #D4D6D6;
+                        }
                     }
                 }
 
@@ -68,7 +71,6 @@ nav {
     #services,
     #dropdown {
         &:hover {
-
             #services-drp-dwn,
             #dropdown-drp-dwn {
                 transform: translate(0, 15%);
