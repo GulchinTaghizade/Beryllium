@@ -15,12 +15,17 @@
 }
 
 nav {
-    margin: 25px 0px;
-
     .container {
         .row {
             #right-side {
                 display: flex;
+                justify-content: space-between;
+                ul {
+                    li {
+                        padding: 30px 10px;
+                        font-size: 13px;
+                    }
+                }
             }
         }
     }
@@ -28,12 +33,13 @@ nav {
     ul {
         display: flex;
         list-style-type: none;
-        justify-content: space-evenly;
+        justify-content: space-between;
         font-size: 13px;
     }
 
     #logo {
         font-size: 20px;
         font-weight: 700;
+        padding: 25px;
     }
 }
