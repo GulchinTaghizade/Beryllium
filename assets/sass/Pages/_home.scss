@@ -211,3 +211,19 @@ nav {
         }
 
 }
+
+#work{
+    margin-top: 20px;
+    .work-summary{
+       text-align: center;
+       margin-left: 16.66667%;
+
+       p{
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        color: #898989;
+       }
+    }
+}

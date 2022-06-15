@@ -182,4 +182,21 @@ nav #dropdown:hover #dropdown-drp-dwn {
     bottom: 0;
   }
 }
+
+#work {
+  margin-top: 20px;
+}
+
+#work .work-summary {
+  text-align: center;
+  margin-left: 16.66667%;
+}
+
+#work .work-summary p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  color: #898989;
+}
 /*# sourceMappingURL=main.css.map */
