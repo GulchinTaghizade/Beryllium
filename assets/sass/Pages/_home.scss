@@ -183,15 +183,31 @@ nav {
     .carousel-control-next-icon {
         background-color: black;
     }
-    // .carousel-caption{
-    //     display: inline-block !important;
-    //     position: absolute ;
-    //     left: 0;
-    // }
+    .carousel-caption{
+        left: 0;
+        h5{
+        font-size: 25px;
+        position: absolute ;
+        left: 10px;
+        bottom: 0;
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
         .slider-container {
             max-width: 100%;
         }
+        #slider{
+            .carousel-caption{
+                left: 0;
+                h5{
+                font-size: 25px;
+                position: absolute ;
+                left: 10px;
+                bottom: 0;
+                }
+            }
+        }
+
 }
