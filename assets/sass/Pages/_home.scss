@@ -103,12 +103,20 @@ nav {
             display: none;
         }
         .nav-container{
-            width: 100%;
+            max-width: 100% ;
         }
 
     }
 
   }
+
+  #sidebar{
+    background-color: red;
+    width: 270px;
+    // height: 100vh;
+    position: absolute;
+
+}
 
 // #slider {
 //     .carousel-inner{

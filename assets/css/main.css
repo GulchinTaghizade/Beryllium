@@ -95,7 +95,13 @@ nav #dropdown:hover #dropdown-drp-dwn {
     display: none;
   }
   nav .nav-container {
-    width: 100%;
+    max-width: 100%;
   }
+}
+
+#sidebar {
+  background-color: red;
+  width: 270px;
+  position: absolute;
 }
 /*# sourceMappingURL=main.css.map */
