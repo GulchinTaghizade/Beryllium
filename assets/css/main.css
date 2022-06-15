@@ -32,20 +32,16 @@ nav #right-side ul li .down-arrow {
   padding: 3px;
 }
 
-nav #right-side ul li .drop-down {
+nav #right-side ul li .drp-dwn-ul {
   background-color: black;
-  border-radius: 5px;
   color: white;
-  display: block;
-  padding-top: 50px;
-}
-
-nav #right-side ul li .drop-down .drp-dwn-ul {
-  display: block;
+  border-radius: 5px;
+  display: none;
   padding: 15px;
+  width: 130px;
 }
 
-nav #right-side ul li .drop-down .drp-dwn-ul li {
+nav #right-side ul li .drp-dwn-ul li {
   padding: 5px 0;
 }
 

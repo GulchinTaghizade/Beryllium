@@ -26,7 +26,6 @@ nav {
                 color: #D4D6D6;
                 letter-spacing: .05em;
                 transition: 0.5s;
-
                 // display: flex;
                 &:hover {
                     color: black;
@@ -36,23 +35,17 @@ nav {
                     padding: 3px;
                 }
 
-                .drop-down {
+                .drp-dwn-ul {
                     background-color: black;
-                    border-radius: 5px;
                     color: white;
-                    display: block;
-                    padding-top: 50px;
-
-                    .drp-dwn-ul {
-                        display: block;
-                        padding: 15px;
-                        li {
-                            padding: 5px 0;
-                        }
+                    border-radius: 5px;
+                    display: none;
+                    padding: 15px;
+                    width: 130px;
+                    li {
+                        padding: 5px 0;
                     }
                 }
-
-
 
             }
 
