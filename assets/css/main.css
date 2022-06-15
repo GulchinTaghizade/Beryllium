@@ -11,6 +11,20 @@
   color: black;
 }
 
+* a:hover {
+  color: black !important;
+}
+
+nav {
+  margin: 25px 0px;
+}
+
+nav .container .row #right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,6 +33,7 @@ nav ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  font-size: 13px;
 }
 
 nav #logo {
