@@ -123,31 +123,51 @@ nav {
     top: 0;
     right: 0;
     z-index: 2;
+    display: none;
 
     #sidebar-ul {
         padding: 40px 50px;
         list-style: none;
 
         li {
-            display: flex;
-            justify-content: space-between;
+            position: relative;
             font-size: 14px;
-            font-weight:600;
-            padding-bottom:10px;
+            font-weight: 600;
+            padding-bottom: 10px;
+
             i {
-            color:#444444;
+                position: absolute;
+                right: 0;
+                color: #444444;
+            }
+
+            #sidebar-dropdown {
+                list-style: none;
+            }
+
+            .sidebar-drp-dwn-li {
+                list-style: none;
             }
         }
+
     }
 
     #x-icon {
         position: absolute;
         right: 5px;
         padding: 10px;
+
         i {
-            color:#444444;
+            color: #444444;
             font-size: 25px;
         }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #sidebar {
+        display: block;
     }
 
 }
