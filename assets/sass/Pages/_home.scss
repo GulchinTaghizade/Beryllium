@@ -25,9 +25,26 @@ nav {
                         color: #D4D6D6;
                         letter-spacing: .05em;
                         transition: 0.5s;
+                        // display: flex;
                         &:hover{
                             color: black;
                         }
+                        .down-arrow{
+                           padding: 3px;
+                        }
+                        .drop-down{
+                            flex-direction: column;
+                            background-color: black;
+                            border-radius: 5px;
+                            color: white;
+                            display: block;
+                            li{
+                                
+                                padding: 0;
+                            }
+                        }
+                        
+
                     }
                     
                     .active{

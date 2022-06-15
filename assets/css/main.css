@@ -28,6 +28,25 @@ nav .container .row #right-side ul li:hover {
   color: black;
 }
 
+nav .container .row #right-side ul li .down-arrow {
+  padding: 3px;
+}
+
+nav .container .row #right-side ul li .drop-down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  display: block;
+}
+
+nav .container .row #right-side ul li .drop-down li {
+  padding: 0;
+}
+
 nav .container .row #right-side ul .active {
   color: black;
 }
