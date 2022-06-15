@@ -30,6 +30,7 @@ nav #right-side ul li:hover {
 
 nav #right-side ul li .down-arrow {
   padding: 3px;
+  display: contents;
 }
 
 nav #right-side ul li .drp-dwn-ul {
@@ -38,7 +39,6 @@ nav #right-side ul li .drp-dwn-ul {
   border-radius: 5px;
   display: none;
   padding: 15px;
-  width: 130px;
 }
 
 nav #right-side ul li .drp-dwn-ul li {

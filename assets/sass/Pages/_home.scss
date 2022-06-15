@@ -33,15 +33,15 @@ nav {
 
                 .down-arrow {
                     padding: 3px;
+                    display: contents;
                 }
 
                 .drp-dwn-ul {
                     background-color: black;
                     color: white;
                     border-radius: 5px;
-                    display: none;
+                    display:none;
                     padding: 15px;
-                    width: 130px;
                     li {
                         padding: 5px 0;
                     }
