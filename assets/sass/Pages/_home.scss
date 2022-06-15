@@ -115,23 +115,37 @@ nav {
 }
 
 #sidebar {
-    background-color: red;
+    background-color: black;
+    color: #7D7D7D;
     width: 270px;
     position: fixed;
     height: 100vh;
     top: 0;
     right: 0;
+    z-index: 2;
 
     #sidebar-ul {
         padding: 40px 50px;
+        list-style: none;
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            font-weight:600;
+            padding-bottom:10px;
+            i {
+            color:#444444;
+            }
+        }
     }
 
     #x-icon {
         position: absolute;
-        right: 0;
+        right: 5px;
         padding: 10px;
-
         i {
+            color:#444444;
             font-size: 25px;
         }
     }
