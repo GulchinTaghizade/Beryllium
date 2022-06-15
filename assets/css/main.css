@@ -15,18 +15,21 @@
   color: black !important;
 }
 
-nav .container .row #right-side {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 nav .container .row #right-side ul li {
   padding: 30px 10px;
   font-size: 13px;
+  color: #D4D6D6;
+  letter-spacing: .05em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav .container .row #right-side ul li:hover {
+  color: black;
+}
+
+nav .container .row #right-side ul .active {
+  color: black;
 }
 
 nav ul {
@@ -34,9 +37,6 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   font-size: 13px;
 }
 

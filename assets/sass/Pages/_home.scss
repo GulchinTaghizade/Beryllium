@@ -18,12 +18,20 @@ nav {
     .container {
         .row {
             #right-side {
-                display: flex;
-                justify-content: space-between;
                 ul {
                     li {
                         padding: 30px 10px;
                         font-size: 13px;
+                        color: #D4D6D6;
+                        letter-spacing: .05em;
+                        transition: 0.5s;
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                    
+                    .active{
+                        color: black;
                     }
                 }
             }
@@ -33,7 +41,6 @@ nav {
     ul {
         display: flex;
         list-style-type: none;
-        justify-content: space-between;
         font-size: 13px;
     }
 
