@@ -102,6 +102,23 @@ nav #dropdown:hover #dropdown-drp-dwn {
 #sidebar {
   background-color: red;
   width: 270px;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  right: 0;
+}
+
+#sidebar #sidebar-ul {
+  padding: 40px 50px;
+}
+
+#sidebar #x-icon {
   position: absolute;
+  right: 0;
+  padding: 10px;
+}
+
+#sidebar #x-icon i {
+  font-size: 25px;
 }
 /*# sourceMappingURL=main.css.map */
