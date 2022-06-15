@@ -15,8 +15,12 @@
   color: black !important;
 }
 
+nav #right-side {
+  padding: 30px;
+}
+
 nav #right-side ul li {
-  padding: 30px 10px;
+  padding: 0 10px;
   font-size: 13px;
   color: #D4D6D6;
   letter-spacing: .05em;
