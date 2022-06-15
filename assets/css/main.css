@@ -189,7 +189,7 @@ nav #dropdown:hover #dropdown-drp-dwn {
 
 #work .work-summary {
   text-align: center;
-  margin-left: 16.66667%;
+  padding: 25px 0;
 }
 
 #work .work-summary p {

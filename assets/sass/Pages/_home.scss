@@ -183,47 +183,52 @@ nav {
     .carousel-control-next-icon {
         background-color: black;
     }
-    .carousel-caption{
+
+    .carousel-caption {
         left: 0;
-        h5{
-        font-size: 25px;
-        position: absolute ;
-        left: 10px;
-        bottom: 0;
+
+        h5 {
+            font-size: 25px;
+            position: absolute;
+            left: 10px;
+            bottom: 0;
         }
     }
 }
 
 @media screen and (max-width: 768px) {
-        .slider-container {
-            max-width: 100%;
-        }
-        #slider{
-            .carousel-caption{
-                left: 0;
-                h5{
+    .slider-container {
+        max-width: 100%;
+    }
+
+    #slider {
+        .carousel-caption {
+            left: 0;
+
+            h5 {
                 font-size: 25px;
-                position: absolute ;
+                position: absolute;
                 left: 10px;
                 bottom: 0;
-                }
             }
         }
+    }
 
 }
 
-#work{
+#work {
     margin-top: 20px;
-    .work-summary{
-       text-align: center;
-       margin-left: 16.66667%;
 
-       p{
-        font-size: 20px;
-        line-height: 1.5;
-        font-family: "Merriweather", serif;
-        font-weight: 400;
-        color: #898989;
-       }
+    .work-summary {
+        text-align: center;
+        padding: 25px 0;
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            font-family: "Merriweather", serif;
+            font-weight: 400;
+            color: #898989;
+        }
     }
 }
+
