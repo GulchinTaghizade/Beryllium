@@ -199,4 +199,27 @@ nav #dropdown:hover #dropdown-drp-dwn {
   font-weight: 400;
   color: #898989;
 }
+
+#work .slider {
+  margin: 0 10px;
+}
+
+#work .slider div h3 {
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+#work .slider div p {
+  color: #bfbfbf;
+  font-family: "Merriweather", serif;
+}
+
+#work .slick-slide {
+  margin: 0 10px;
+}
+
+#work .slick-list {
+  margin: 0 -10px;
+}
 /*# sourceMappingURL=main.css.map */

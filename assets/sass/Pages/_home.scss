@@ -222,6 +222,7 @@ nav {
     .work-summary {
         text-align: center;
         padding: 25px 0;
+
         p {
             font-size: 20px;
             line-height: 1.5;
@@ -230,5 +231,32 @@ nav {
             color: #898989;
         }
     }
-}
 
+    .slider {
+        margin: 0 10px;
+
+        div {
+            h3 {
+                margin-top: 20px;
+                font-weight: 300;
+                font-size: 24px;
+            }
+
+            p {
+                color: #bfbfbf;
+                font-family: "Merriweather", serif;
+            }
+        }
+    }
+
+
+    .slick-slide {
+        margin: 0 10px;
+    }
+
+    .slick-list {
+        margin: 0 -10px;
+    }
+
+
+}
