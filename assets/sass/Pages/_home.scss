@@ -237,33 +237,43 @@ nav {
 
         div {
             h3 {
+                margin-left: 15px;
                 margin-top: 20px;
                 font-weight: 300;
                 font-size: 24px;
             }
 
             p {
+                margin-left: 15px;
                 color: #bfbfbf;
                 font-family: "Merriweather", serif;
             }
 
         }
     }
-
-    // // Add spacing between images
-    // .slick-slide {
-    //     margin: 0 5px;
-    // }
-
-    // // Fix external margins
-    // .slick-list {
-    //     margin: 0 -5px;
-    // }
-
-    // .slick-slider {
-    //     overflow: hidden;
-    // }
+    .slider {
+        margin: 0 auto;
+    }
+    .slide{
+      display: table;
+    }
+    .slide img{
+      display: table-cell;
+      margin: auto;
+    }
+    img{
+        width: 90%;
+        height: auto;
+    }
     
+    .slick-prev:before, 
+    .slick-next:before {
+        color: black;    
+    }
+    
+    body {
+      padding: 30px;
+    }
 
 
 }

@@ -1,15 +1,6 @@
-// $(document).on('ready', function () {
-//     $(".regular").slick({
-//         dots: true,
-//         infinite: true,
-//         slidesToShow: 3,
-//         slidesToScroll: 3
-//     });
-// });
-
 
 $(document).on('ready', function () {
-    $(".responsive").slick({
+    $(".regular").slick({
     dots: true,
     infinite: false,
     slidesToShow: 3,
@@ -25,14 +16,14 @@ $(document).on('ready', function () {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint:992,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
