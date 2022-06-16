@@ -246,17 +246,24 @@ nav {
                 color: #bfbfbf;
                 font-family: "Merriweather", serif;
             }
+
         }
     }
 
+    // // Add spacing between images
+    // .slick-slide {
+    //     margin: 0 5px;
+    // }
 
-    .slick-slide {
-        margin: 0 10px;
-    }
+    // // Fix external margins
+    // .slick-list {
+    //     margin: 0 -5px;
+    // }
 
-    .slick-list {
-        margin: 0 -10px;
-    }
+    // .slick-slider {
+    //     overflow: hidden;
+    // }
+    
 
 
 }
