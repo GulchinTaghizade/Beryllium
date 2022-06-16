@@ -243,4 +243,18 @@ nav #dropdown:hover #dropdown-drp-dwn {
 #work body {
   padding: 30px;
 }
+
+#NewsAndTestimonals #news {
+  margin-top: 100px;
+}
+
+#NewsAndTestimonals .news-blog span {
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+#NewsAndTestimonals .news-blog h3 {
+  color: #52D681;
+  font-weight: 100;
+}
 /*# sourceMappingURL=main.css.map */
