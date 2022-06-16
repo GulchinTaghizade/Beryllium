@@ -244,15 +244,19 @@ nav #dropdown:hover #dropdown-drp-dwn {
   padding: 30px;
 }
 
-#NewsAndTestimonials #news {
+#NewsAndTestimonials #news,
+#NewsAndTestimonials #testimonials {
   margin-top: 100px;
 }
 
-#NewsAndTestimonials #news h2 {
-  font-weight: 300;
+#NewsAndTestimonials #news h2,
+#NewsAndTestimonials #testimonials h2 {
+  font-weight: 400;
+  font-size: 25px;
 }
 
-#NewsAndTestimonials #news ul {
+#NewsAndTestimonials #news ul,
+#NewsAndTestimonials #testimonials ul {
   list-style: none;
   padding-left: 0;
 }
@@ -280,5 +284,17 @@ nav #dropdown:hover #dropdown-drp-dwn {
   font-family: "Merriweather", serif;
   border-bottom: 1px solid #f2f2f2f2;
   padding-bottom: 25px;
+}
+
+#NewsAndTestimonials #testimonials {
+  margin-left: 50px;
+  width: 40%;
+}
+
+#NewsAndTestimonials #testimonials p,
+#NewsAndTestimonials #testimonials span {
+  font-style: italic;
+  font-family: "Merriweather", serif;
+  font-size: 21px;
 }
 /*# sourceMappingURL=main.css.map */
