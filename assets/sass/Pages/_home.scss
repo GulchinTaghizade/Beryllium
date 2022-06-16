@@ -282,6 +282,8 @@ nav {
 }
 
 #NewsAndTestimonials {
+    padding-bottom: 50px;
+    border-bottom: 2px solid #f2f2f2f2;
 
     #news,
     #testimonials {
@@ -296,7 +298,8 @@ nav {
             list-style: none;
             padding-left: 0;
         }
-        .btn{
+
+        .btn {
             background: #52D681;
             color: #2f9051;
             border: 2px solid #52D681;
@@ -306,9 +309,10 @@ nav {
             font-size: 13px;
             font-weight: 700 !important;
             border-radius: 0;
-            &:hover{
+
+            &:hover {
                 transition: 0.7s;
-            color: white !important;
+                color: white !important;
 
             }
         }
@@ -342,6 +346,8 @@ nav {
     }
 
     #testimonials {
+        padding: 0 75px;
+
         p,
         span {
             font-style: italic;
@@ -359,9 +365,39 @@ nav {
 
 @media screen and (max-width: 768px) {
 
-    .NewsAndTestimonials-Container, .work-container {
+    .NewsAndTestimonials-Container,
+    .work-container {
         max-width: 100%;
     }
-   
 
+    #testimonials {
+        padding: 0 15px !important;
+    }
+}
+
+#features {
+    i {
+        font-size: 30px;
+        color: #898989;
+    }
+
+    h3 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 14px !important;
+        line-height: 26px;
+        font-family: "Merriweather", serif;
+    }
+    p{
+        a{
+            color: #52D681;
+            font-size: 11px;
+        }
+    }
+    #feature-icon{
+        display: inline;
+    }
 }
