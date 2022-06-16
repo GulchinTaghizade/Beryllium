@@ -286,15 +286,22 @@ nav #dropdown:hover #dropdown-drp-dwn {
   padding-bottom: 25px;
 }
 
-#NewsAndTestimonials #testimonials {
-  margin-left: 50px;
-  width: 40%;
-}
-
 #NewsAndTestimonials #testimonials p,
 #NewsAndTestimonials #testimonials span {
   font-style: italic;
   font-family: "Merriweather", serif;
-  font-size: 21px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#NewsAndTestimonials #testimonials span {
+  color: gray;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .NewsAndTestimonials-Container, .work-container {
+    max-width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
